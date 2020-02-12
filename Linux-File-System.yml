@@ -1,0 +1,42 @@
+The File-System Hierarchy
+
+The File-System Hierarchy
+
+
+"On a LINUX system, everything is a file; if something is not a file, it is a process."
+Sorts of files
+
+Most files are just files, called regular files; they contain normal data, for example text files, executable files or programs, input for or output from a program and so on.
+
+While it is reasonably safe to suppose that everything you encounter on a Linux system is a file, there are some exceptions.
+
+    Directories: files that are lists of other files.
+
+    Special files: the mechanism used for input and output. Most special files are in /dev, we will discuss them later.
+
+    Links: a system to make a file or directory visible in multiple parts of the system's file tree. We will talk about links in detail.
+
+    (Domain) sockets: a special file type, similar to TCP/IP sockets, providing inter-process networking protected by the file system's access control.
+
+    Named pipes: act more or less like sockets and form a way for processes to communicate with each other, without using network socket semantics.
+
+The -l option to ls displays the file type, using the first character of each input line:
+
+File types in a long list
+Symbol	Meaning
+-	Regular file
+d	Directory
+l	Link
+c	Special file
+s	Socket
+p	Named pipe
+b	Block device
+
+
+List file
+
+#ls -l /
+
+#ls -l /dev/ | more
+
+All files on a Linux system are stored on file systems, which are organized into a single inverted tree of directories, known as a file-system hierarchy. This tree is inverted because the root of the tree  is said to be at the top of the hierarchy, and the branches of directories and sub-directories stretch below the root.
