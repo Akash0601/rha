@@ -3,32 +3,94 @@ Why Should You Learn about Linux?:
 
 Linux is a critical technology for IT professionals to understand.
 
-Linux is in widespread use, and if you use the internet at all, you are probably already interacting with Linux systems in your daily life. Perhaps the most obvious way in which you interact with Linux systems is through browsing the World Wide Web and using e-commerce sites to buy and sell products.
+Linux is in widespread use, and if you use the internet at all, you are probably already interacting with Linux systems in your 
+daily life. Perhaps the most obvious way in which you interact with Linux systems is through browsing the World Wide Web and 
+using e-commerce sites to buy and sell products.
 
-However, Linux is in use for much more than that. Linux manages point-of-sale systems and the world's stock markets, and also powers smart TVs and in-flight entertainment systems. It powers most of the top 500 supercomputers in the world. Linux provides the foundational technologies powering the cloud revolution and the tools used to build the next generation of container-based micro services applications, software-based storage technologies, and big data solutions.
+However, Linux is in use for much more than that. Linux manages point-of-sale systems and the world's stock markets, and also 
+powers smart TVs and in-flight entertainment systems. It powers most of the top 500 supercomputers in the world. Linux
+provides the foundational technologies powering the cloud revolution and the tools used to build the next generation of 
+container-based micro services applications, software-based storage technologies, and big data solutions.
 
-In the modern data center, Linux and Microsoft Windows are the major players, and Linux is a growing segment in that space. Some of the many reasons to learn Linux include:
+In the modern data center, Linux and Microsoft Windows are the major players, and Linux is a growing segment in that space.
+Some of the many reasons to learn Linux include:
 
-    A Windows user needs to interoperate with Linux.
-    In application development, Linux hosts the application or its runtime.
-    In cloud computing, the cloud instances in the private or public cloud environment use Linux as the operating system.
-    With mobile applications or the Internet of Things (IoT), the chances are high that the operating system of your device uses Linux.
-    If you are looking for new opportunities in IT, Linux skills are in high demand. 
-=================================================================================================================================================
-
+  A Windows user needs to interoperate with Linux.
+  
+  In application development, Linux hosts the application or its runtime.
+  
+  In cloud computing, the cloud instances in the private or public cloud environment use Linux as the operating system.
+  
+  With mobile applications or the Internet of Things (IoT), the chances are high that the operating system of your device uses
+  Linux.
+  
+  If you are looking for new opportunities in IT, Linux skills are in high demand. 
+  
+==============================================================================================================================
 What Makes Linux Great?:
-------------------------|
+==============================================================================================================================
+
 
 There are many different answers to the question "What makes Linux great?", however, three of them are:
 
-    Linux is open source software.
+ Linux is open source software.
+ 
+ Being open source does not just mean that you can see how the system works. You can also experiment with changes and share
+ them freely for others to use. The open source model means that improvements are easier to make, enabling faster innovation.
+ 
+ Linux provides easy access to a powerful and scriptable command-line interface (CLI) .
+ 
+ Linux was built around the basic design philosophy that users can perform all administration tasks from the CLI. 
+ 
+ It enables easier automation, deployment, and provisioning, and simplifies both local and remote system administration.
+ 
+ Unlike other operating systems, these capabilities have been built in from the beginning, and the assumption has always been
+ to enable these important capabilities.
+ 
+ Linux is a modular operating system that allows you to easily replace or remove components.
+ 
+ Components of the system can be upgraded and updated as needed. A Linux system can be a general-purpose development
+ workstation or an extremely stripped-down software appliance. 
+ 
+ 
+ ==============================================================================================================================
+ What is Open Source Software?:
+==============================================================================================================================
 
-    Being open source does not just mean that you can see how the system works. You can also experiment with changes and share them freely for others to use. The open source model means that improvements are easier to make, enabling faster innovation.
+Open source software is software with source code that anyone can use, study, modify, and share.
 
-    Linux provides easy access to a powerful and scriptable command-line interface (CLI) .
+Source code is the set of human-readable instructions that are used to make a program. It may be interpreted as a script or 
+compiled into a binary executable which the computer runs directly. Upon creating source code, it gets copyrighted, and the 
+copyright holder controls the terms under which the software can be copied, adapted, and distributed. Users can use this 
+software under a software license.
 
-    Linux was built around the basic design philosophy that users can perform all administration tasks from the CLI. It enables easier automation, deployment, and provisioning, and simplifies both local and remote system administration. Unlike other operating systems, these capabilities have been built in from the beginning, and the assumption has always been to enable these important capabilities.
+Some software has source code that only the person, team, or organization that created it can see, or change, or distribute.
+This software is sometimes called "proprietary" or "closed source" software. Typically the license only allows the end user 
+to run the program, and provides no access, or tightly limited access, to the source.
 
-    Linux is a modular operating system that allows you to easily replace or remove components.
+Open source software is different. When the copyright holder provides software under an open source license, they grant the
+user the right to run the program and also to view, modify, compile, and redistribute the source royalty-free to others.
 
-    Components of the system can be upgraded and updated as needed. A Linux system can be a general-purpose development workstation or an extremely stripped-down software appliance. 
+Open source promotes collaboration, sharing, transparency, and rapid innovation because it encourages people beyond the
+original developers to make modifications and improvements to the software and to share it with others.
+
+Just because the software is open source does not mean it is somehow not able to be used or provided commercially. 
+Open source is a critical part of many organizations' commercial operations. Some open source licenses allow code 
+to be reused in closed source products. One can sell open source code, but the terms of true open source licenses 
+generally allow the customer to redistribute the source code. Most commonly, vendors such as Red Hat provide commercial 
+help with deploying, supporting, and extending solutions based on open source products.
+
+Open source has many benefits for the user:
+
+    Control : See what the code does and change it to improve it.
+
+    Training : Learn from real-world code and develop more useful applications.
+
+    Security : Inspect sensitive code, fix with or without the original developers' help.
+
+    Stability : Code can survive the loss of the original developer or distributor. 
+
+The bottom line is that open source allows the creation of better software with a higher return on investment by collaboration. 
+
+==============================================================================================================================
+==============================================================================================================================
