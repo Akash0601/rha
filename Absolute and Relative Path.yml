@@ -2,28 +2,28 @@ Absolute Paths , Relative Paths:
 ===============================================================================================================================
 
 
-Absolute Paths
+Absolute Paths:
 
 An absolute path is a fully qualified name, specifying the files exact location in the file system
 hierarchy. It begins at the root (/) directory and specifies each subdirectory that must be
 traversed to reach the specific file. Every file in a file system has a unique absolute path name,
-recognized with a simple rule: A path name with a forward slash (/) as the first character is an
+recognized with a simple rule, A path name with a forward slash (/) as the first character is an
 absolute path name. For example, the absolute path name for the system message log file is /var/log/messages. Absolute path names can be long to type, so files may also be located relative to the current working directory for your shell prompt.
+===============================================================================================================================
 
-
-The Current Working Directory and Relative Paths
+The Current Working Directory and Relative Paths:
 
 When a user logs in and opens a command window, the initial location is normally the user's home
 directory. System processes also have an initial directory. Users and processes navigate to other
 directories as needed; the terms working directory or current working directory refer to their
 current location.
 Like an absolute path, a relative path identifies a unique file, specifying only the path necessary to
-reach the file from the working directory. Recognizing relative path names follows a simple rule: A
+reach the file from the working directory. Recognizing relative path names follows a simple rule. A
 path name with anything other than a forward slash as the first character is a relative path name. A
 user in the /var directory could refer to the message log file relatively as log/messages.
+===============================================================================================================================
 
-
-NAVIGATING PATHS
+NAVIGATING PATHS:
 
 The pwd command displays the full path name of the current working directory for that shell. This
 can help you determine the syntax to reach files using relative path names. The ls command lists
