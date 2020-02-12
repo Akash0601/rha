@@ -1,4 +1,6 @@
+===============================================================================================================================
 Graphical User Interface vs Command Line Interface Page:
+===============================================================================================================================
  1. Resources Utilization
  2. Advance Features 
  3. Automation
@@ -6,3 +8,102 @@ Graphical User Interface vs Command Line Interface Page:
  5. Performance
  
 In IT 99.999% servers  are run on Command Line because it is highly secure.
+
+===============================================================================================================================
+Run simple commands using the shell:
+===============================================================================================================================
+
+After completing this section, you should be able to log in to  run simple  commands using the shell.
+
+root@workstation:~#date
+root@workstation:~#cal
+root@workstation:~#cal 2018
+root@workstation:~#cal jan 2018
+root@workstation:~#uptime
+root@workstation:~#whoami
+root@workstation:~#w
+root@workstation:~#su - student
+root@workstation:~#su student
+student@workstation:~#su -
+root@workstation:~#uptime
+
+Syntax:
+#command Options Arguments
+#ls -l /
+
+
+1. To know which directory you are in, you can use the “pwd”
+root@workstation:~# pwd
+
+2. ls — Use the "ls" command to know what files are in the directory you are in.
+root@workstation:~# ls
+
+3. You can see all the hidden files by using the command “ls -a”.
+root@workstation:~# ls -a
+
+4. Use the "ls -l " command to long list  files
+root@workstation:~# ls -l
+
+5. Use the "cd" command to go to a directory. For example, if you are in the home folder, and you want to go to the 
+/var/tmp folder, then you can type in “cd /var/tmp”. Remember, this command is case  sensitive. If you just type “cd” 
+and press enter, it takes you to the home directory
+root@workstation:~# cd /var/tmp
+root@workstation:~# pwd 
+root@workstation:~# cd 
+
+
+6. To switch between current and previous  directory use cd -
+root@workstation:~# cd -
+
+7. To go back from a folder to the folder before that, you can type “cd ..” . The two dots represent back.
+root@workstation:~# cd /var/tmp
+root@workstation:tmp# pwd
+root@workstation:tmp# cd ..
+root@workstation:var#pwd
+
+8. The touch command is used to create a file. It can be anything, from an empty text file to an  myfile.txt file. For example,
+“touch empty.txt
+root@workstation:~# touch myfile.txt
+
+9. Create multiple file using touch command. (this is example of advance feature of CLI)
+root@workstation:~# touch songs{1..5}.mp3
+
+10. Use the mkdir command when you need to create a folder or a directory.
+root@workstation:~# mkdir fedora
+root@workstation:~# mkdir centos
+root@workstation:~# ls
+
+11. Use the rm command to delete files and directories.  Use "rm -r" to delete just the directory. It  deletes both the folder and the files it contains when using only the rm command.
+root@workstation:~# rm myfile.txt
+root@workstation:~# rm -r fedora
+
+12. man & --help — To know more about a command and how to use it, use the man command. It shows the manual pages of the command. For example, “man ls” shows the manual pages of the ls command. Typing in the command name and the argument helps it show which ways the command can be used  (e.g., ls – -help).
+
+[root@workstation ~]# man
+[root@workstation ~]# ls --help
+
+
+13 Use the cat command to create , append and display, the contents of a file. It is usually used to  easily view programs. 
+ctrl +D to save your file.
+[root@workstation ~]# cat >readme.txt
+  WELCOME to 
+  ITE Bhopal
+  Traning Programme
+  ctrl +d (to save)
+  
+  Disaplay content:
+  [root@workstation ~]# cat readme.txt  
+  
+  Append Data:
+  
+  [root@workstation ~]# cat  >> readme.txt
+       DevOps Tools List
+         Jenkins
+         GitHub
+         DockerHub
+         Kubernets
+         Openshift
+         ctrl+D (to save)
+  [root@workstation ~]# cat readme.txt  
+  
+  
