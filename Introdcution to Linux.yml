@@ -135,26 +135,50 @@ to execute. The kernel will force programs to wait for the CPU or stop using the
 use the CPU without the kernel allowing them to do so.
 
 ==============================================================================================================================
+Main components of a LINUX Based Operating System:
 ==============================================================================================================================
+This section introduces the three components of a LINUX Based operating system and describes how these components interact with each other. The three main components of a LINUX Based system are:
+    The kernel
+    The shell
+    The file system
 
+
+The kernel:
+*************
+
+The kernel, also called the core of a Linux system, manages the physical resources of a hardware computer, devices, memory
+, processes and daemons.
+
+The kernel controls the functions between the system programs and the hardware. It also schedules and executes all commands.
+
+The kernel manages functions such as:
+**************************************
+    File system and structures
+    Device management, such as storing data to the disk
+    Process management, such as daemons
+    Memory management, such as swap space
+
+
+The Shell:
+**********
+
+A shell is an interface between the user and the kernel. It acts as a command interpreter. The shell accepts commands issued
+by the user, interprets these commands and then sends the executable to the kernel. The three most common shells in UNIX are.
+Bourne shell, C shell and Korn shell. There are also popular open source UNIX shells such as Z shell and bash, both are 
+extensions of Bourne shell.
+
+In order to identify the shell you are using in a UNIX system, execute the following command, in the example below.
+Here we see that the shell in use is bash.
+
+kiosk@node:~$ echo $SHELL
+
+/bin/bash
+
+The File system:
+*****************
+
+The LINIUX file system is a hierarchy of directories, sub directories and files that are organized or grouped for
+special purposes.
 
 
 ==============================================================================================================================
-
-==============================================================================================================================
-
-
-
-
-
-
-==============================================================================================================================
-==============================================================================================================================
-
-
-
-
-==============================================================================================================================
-==============================================================================================================================
-
-
