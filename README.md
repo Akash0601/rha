@@ -1,2 +1,0 @@
-# rha
-Linux Essential Classes
