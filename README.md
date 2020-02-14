@@ -28,7 +28,7 @@ application downtime, organizations design and implement complex systems to prov
 Maintaining multiple applications on a single host often becomes cumbersome, and any deployment or update has the potential 
 to break one of the organization's applications.
 
-images/123.png
+!images/123.png
 
 Alternatively, a software application can be deployed using a container . A container is a set of one or more processes that
 are isolated from the rest of the system. Containers provide many of the same benefits as virtual machines, such as security,
