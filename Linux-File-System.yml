@@ -12,7 +12,7 @@ While it is reasonably safe to suppose that everything you encounter on a Linux 
     Special files: the mechanism used for input and output. Most special files are in /dev, we will discuss them later.
 
     Links: a system to make a file or directory visible in multiple parts of the system's file tree. We will talk about 
-    links in detail.
+    links in detail.s
 
     (Domain) sockets: a special file type, similar to TCP/IP sockets, providing inter-process networking protected by the
     file system's access control.
